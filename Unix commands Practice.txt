@@ -1,0 +1,54 @@
+cd /v
+
+ls
+
+cd SQL
+
+ls
+
+cd VCT
+
+ls -l
+
+mkdir vct_new
+
+ls
+
+rmdir vct_new
+
+touch data.txt
+
+ls
+
+vim data.txt
+
+cat data.txt
+
+touch empty.txt
+
+ls
+
+mv data.txt empty.txt
+
+ls
+
+touch data.txt
+
+cp empty.txt data.txt
+
+rm empty.txt
+
+rm data.txt
+
+touch data.txt
+
+vim data.txt
+
+ls -l
+
+chmod 555 data.txt
+
+chmod 755 data.txt
+
+
+grep a data.txt
